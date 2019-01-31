@@ -1,5 +1,5 @@
-FROM alpine
-MAINTAINER Christian Gatzlaff <cgatzlaff@gmail.com>
+FROM alpine:3.7
+MAINTAINER Strathcom Media <support@strathcom.com>
 
 # basic flask environment
 RUN apk add --no-cache bash git nginx uwsgi uwsgi-python py2-pip \
